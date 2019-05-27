@@ -1,0 +1,45 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 2%;
+  .social {
+    display: inline-block;
+    margin-bottom: 20px;
+    .iconSocial {
+      padding: 5px;
+      color: $cPink;
+      &:hover{
+        color: $cBlue;
+      }
+    }
+  }
+  .titleDiv {
+    align-content: center;
+    color: $cPink;
+    .title {
+      width: 75%;
+      margin: 0 auto;
+      border: 4px solid $cPink;
+      .titleFirst {
+        margin: 0;
+        text-align: center;
+        font-size: 6.4rem;
+        font-weight: 600;
+      }
+      .titleLast {
+        margin: 0;
+        text-align: center;
+        font-size: 6.4rem;
+        font-weight: 300;
+      }
+    }
+    .subTitle {
+      color: $cBlue;
+      text-align: center;
+      font-size: 2.4rem;
+      font-style: italic;
+      font-weight: 500;
+    }
+  }
+}

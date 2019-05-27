@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: $cPink;
+  color: $cWhite;
+  font-size: 1.8rem;
+  padding: 1% 3%;
+  .footerSec1 {
+    span {
+      font-weight: 600;
+    }
+  }
+  p {
+    span:not(:first-child),
+    a {
+      text-decoration-line: underline;
+      color: inherit;
+      font-weight: 600;
+    }
+  }
+}
